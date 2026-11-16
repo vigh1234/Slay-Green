@@ -156,12 +156,6 @@ it needed only light changes. The notable ones:
   tab bar (see `src/components/layout/NavBar.jsx`).
 
 ## Known limitations / good next steps
-
-- The admin login is a shared-password gate, not real authentication.
-- Marketplace products and cart live in memory only (React state) — refresh
-  the page and they're gone. Wiring `ProductContext` up to the backend
-  (persist to `server/DataBase` or a real database) would be the natural
-  next step, matching how survey data is already persisted.
 - `country-state-city`'s full dataset makes the User Survey's first screen
   a fairly large lazy chunk (~650 KB before gzip). Fine for now; if it
   becomes a problem, swap to a lighter country/state list.
