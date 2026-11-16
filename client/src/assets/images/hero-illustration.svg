@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 600" role="img" aria-label="Wind turbines, a solar-powered home and an electric car charging in green hills">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecfeff"/>
+      <stop offset="0.5" stop-color="#d1fae5"/>
+      <stop offset="1" stop-color="#a7f3d0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="0.55" stop-color="#fef3c7" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fef3c7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="640" height="600" rx="56"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="640" height="600" fill="url(#sky)"/>
+
+    <!-- sun -->
+    <circle cx="468" cy="168" r="118" fill="url(#sun)"/>
+    <circle cx="468" cy="168" r="46" fill="#fbbf24" opacity="0.9"/>
+    <circle cx="468" cy="168" r="34" fill="#fde68a"/>
+
+    <!-- clouds -->
+    <g fill="#fff" opacity="0.85">
+      <ellipse cx="150" cy="120" rx="52" ry="16"/>
+      <ellipse cx="124" cy="108" rx="28" ry="16"/>
+      <ellipse cx="176" cy="106" rx="34" ry="20"/>
+      <ellipse cx="318" cy="70" rx="40" ry="12" opacity="0.8"/>
+      <ellipse cx="300" cy="62" rx="20" ry="11"/>
+      <ellipse cx="338" cy="60" rx="24" ry="13"/>
+    </g>
+
+    <!-- birds -->
+    <g fill="none" stroke="#0f766e" stroke-width="2.4" stroke-linecap="round" opacity="0.7">
+      <path d="M232 168q8-9 16 0q8-9 16 0"/>
+      <path d="M274 142q6-7 12 0q6-7 12 0"/>
+    </g>
+
+    <!-- far hills -->
+    <path d="M0 372C110 300 210 336 310 326S520 286 640 346V600H0Z" fill="#6ee7b7"/>
+
+    <!-- wind turbines -->
+    <g fill="#fff">
+      <g transform="translate(112 332)">
+        <path d="M-3 0L3 0L1.6 -112L-1.6 -112Z"/>
+        <g transform="translate(0 -112)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+            <path d="M0 0L-3.4 -2L0 -58L3.4 -2Z"/>
+            <path d="M0 0L-3.4 -2L0 -58L3.4 -2Z" transform="rotate(120)"/>
+            <path d="M0 0L-3.4 -2L0 -58L3.4 -2Z" transform="rotate(240)"/>
+          </g>
+          <circle r="5" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5"/>
+        </g>
+      </g>
+      <g transform="translate(222 342) scale(0.72)">
+        <path d="M-3 0L3 0L1.6 -112L-1.6 -112Z"/>
+        <g transform="translate(0 -112)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="40" to="400" dur="11s" repeatCount="indefinite"/>
+            <path d="M0 0L-3.4 -2L0 -58L3.4 -2Z"/>
+            <path d="M0 0L-3.4 -2L0 -58L3.4 -2Z" transform="rotate(120)"/>
+            <path d="M0 0L-3.4 -2L0 -58L3.4 -2Z" transform="rotate(240)"/>
+          </g>
+          <circle r="5" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5"/>
+        </g>
+      </g>
+      <g transform="translate(548 312) scale(0.88)">
+        <path d="M-3 0L3 0L1.6 -112L-1.6 -112Z"/>
+        <g transform="translate(0 -112)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="80" to="440" dur="10s" repeatCount="indefinite"/>
+            <path d="M0 0L-3.4 -2L0 -58L3.4 -2Z"/>
+            <path d="M0 0L-3.4 -2L0 -58L3.4 -2Z" transform="rotate(120)"/>
+            <path d="M0 0L-3.4 -2L0 -58L3.4 -2Z" transform="rotate(240)"/>
+          </g>
+          <circle r="5" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- mid hills -->
+    <path d="M0 436C140 366 262 424 382 394S560 364 640 414V600H0Z" fill="#34d399"/>
+
+    <!-- trees on mid hill -->
+    <g>
+      <rect x="62" y="396" width="6" height="28" rx="3" fill="#065f46"/>
+      <circle cx="65" cy="386" r="22" fill="#047857"/>
+      <circle cx="54" cy="396" r="14" fill="#059669"/>
+      <rect x="116" y="404" width="5" height="22" rx="2.5" fill="#065f46"/>
+      <circle cx="118" cy="396" r="16" fill="#059669"/>
+      <rect x="588" y="388" width="6" height="26" rx="3" fill="#065f46"/>
+      <circle cx="591" cy="378" r="21" fill="#047857"/>
+      <circle cx="602" cy="388" r="13" fill="#059669"/>
+    </g>
+
+    <!-- solar home -->
+    <g>
+      <rect x="378" y="420" width="112" height="56" rx="4" fill="#fff"/>
+      <path d="M364 424L434 366L504 424Z" fill="#1e3a5f"/>
+      <g stroke="#60a5fa" stroke-width="1.4" opacity="0.8">
+        <path d="M378 412L434 366"/><path d="M398 418L444 376"/><path d="M420 424L460 390"/>
+        <path d="M388 406L494 406" opacity="0"/>
+        <path d="M400 392L468 392"/><path d="M384 408L484 408"/>
+      </g>
+      <rect x="418" y="440" width="26" height="36" rx="4" fill="#10b981"/>
+      <circle cx="438" cy="460" r="2" fill="#fff"/>
+      <rect x="456" y="436" width="22" height="20" rx="3" fill="#bae6fd"/>
+      <path d="M467 436V456M456 446H478" stroke="#fff" stroke-width="2"/>
+      <rect x="386" y="436" width="22" height="20" rx="3" fill="#bae6fd"/>
+      <path d="M397 436V456M386 446H408" stroke="#fff" stroke-width="2"/>
+    </g>
+
+    <!-- near hill -->
+    <path d="M0 496C150 452 296 506 440 476S586 456 640 474V600H0Z" fill="#10b981"/>
+
+    <!-- bushes -->
+    <g>
+      <circle cx="40" cy="492" r="26" fill="#059669"/>
+      <circle cx="68" cy="500" r="20" fill="#047857"/>
+      <circle cx="590" cy="486" r="24" fill="#047857"/>
+      <circle cx="616" cy="494" r="20" fill="#059669"/>
+    </g>
+
+    <!-- road -->
+    <path d="M0 532H640V584H0Z" fill="url(#road)"/>
+    <path d="M0 532H640" stroke="#475569" stroke-width="3"/>
+    <path d="M-10 558H650" stroke="#f1f5f9" stroke-width="3" stroke-dasharray="26 22" opacity="0.7"/>
+    <rect y="584" width="640" height="16" fill="#047857"/>
+
+    <!-- EV charger -->
+    <g>
+      <rect x="470" y="478" width="30" height="64" rx="9" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+      <rect x="476" y="486" width="18" height="20" rx="5" fill="#10b981"/>
+      <path d="M487 489l-6 8h5l-2 7 7-9h-5z" fill="#fff"/>
+      <rect x="465" y="540" width="40" height="8" rx="3" fill="#94a3b8"/>
+      <path d="M470 516C440 514 430 528 408 530" fill="none" stroke="#0f172a" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- electric car -->
+    <g>
+      <ellipse cx="316" cy="556" rx="108" ry="8" fill="#0f172a" opacity="0.18"/>
+      <path d="M212 548V526Q212 512 228 508L268 502Q284 478 312 474L352 474Q378 476 392 500L404 506Q420 510 420 526V548Z" fill="#fff" stroke="#cbd5e1" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M284 500Q298 486 316 484L338 484V504H284Z" fill="#bae6fd"/>
+      <path d="M346 484L354 484Q372 488 382 504H346Z" fill="#bae6fd"/>
+      <path d="M212 534H420V548H212Z" fill="#10b981"/>
+      <rect x="400" y="514" width="14" height="8" rx="3" fill="#fde68a"/>
+      <rect x="214" y="514" width="10" height="8" rx="3" fill="#fca5a5"/>
+      <circle cx="372" cy="520" r="11" fill="#10b981"/>
+      <path d="M373 513l-5 8h4l-1.4 6 6-8h-4z" fill="#fff"/>
+      <g>
+        <circle cx="258" cy="549" r="19" fill="#0f172a"/><circle cx="258" cy="549" r="8" fill="#cbd5e1"/>
+        <circle cx="374" cy="549" r="19" fill="#0f172a"/><circle cx="374" cy="549" r="8" fill="#cbd5e1"/>
+      </g>
+    </g>
+
+    <!-- floating leaves -->
+    <g fill="#10b981" opacity="0.9">
+      <path d="M30 214q22-26 44-6q-12 30-44 6z"/>
+      <path d="M588 120q18-20 36-4q-10 24-36 4z" fill="#34d399"/>
+      <path d="M520 78q14-16 28-3q-8 19-28 3z" fill="#059669"/>
+    </g>
+  </g>
+</svg>
